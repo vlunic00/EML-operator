@@ -80,7 +80,7 @@ Operator Visualization/
 │   ├── pyvenv.cfg
 │   ├── Lib/site-packages/       # Installed Python packages
 │   └── Scripts/                 # Virtual environment scripts
-├── 2603.21852v2.pdf             # Reference research paper (arXiv)
+├── EML Operator.pdf             # Reference research paper (arXiv)
 └── ffmpeg-2026-04-30-[...].7z   # FFmpeg utilities
 ```
 
@@ -213,7 +213,7 @@ while !found.load(Ordering::Relaxed) {
 
 ## 🔬 Research Context
 
-The paper referenced in `2603.21852v2.pdf` (arXiv identifier) describes the theoretical foundation for this evolutionary operator approach. The "phylogenetic" terminology stems from treating mathematical expression discovery as an evolutionary tree growth problem.
+The paper referenced in `EML Operator.pdf` (arXiv identifier) describes the theoretical foundation for this evolutionary operator approach. The "phylogenetic" terminology stems from treating mathematical expression discovery as an evolutionary tree growth problem.
 
 ## 📋 Performance Notes
 
@@ -232,27 +232,6 @@ cargo build --release
 ```
 
 The release binary is placed at `backend/target/release/backend.exe` (Windows) or `backend/target/release/backend` (Unix).
-
-### Modifying the Operator
-
-Edit the `eml` function in [backend/src/main.rs](backend/src/main.rs#L6) to experiment with different mathematical operators.
-
-### Adding New Button Operations
-
-Modify [main.py](main.py#L30) to add new button operations and corresponding target value calculations in `get_target_for_op()`.
-
-## 📝 License
-
-See repository for license information.
-
-## 🤝 Contributing
-
-To contribute improvements:
-
-1. Test changes thoroughly with the GUI
-2. Verify Rust backend compilation: `cargo build --release`
-3. Monitor stdout output for expected protocol messages
-4. Ensure cross-platform compatibility
 
 ## 📚 References
 
