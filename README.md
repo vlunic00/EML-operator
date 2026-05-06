@@ -81,7 +81,6 @@ Operator Visualization/
 │   ├── Lib/site-packages/       # Installed Python packages
 │   └── Scripts/                 # Virtual environment scripts
 ├── EML Operator.pdf             # Reference research paper (arXiv)
-└── ffmpeg-2026-04-30-[...].7z   # FFmpeg utilities
 ```
 
 ## 🚀 Getting Started
